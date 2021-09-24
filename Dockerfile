@@ -14,7 +14,6 @@ ENV SHELL /usr/bin/zsh
 
 # 環境パスの設定
 ENV PATH /usr/local/bin:$PATH
-ENV DEBIAN_FRONTEND noninteractive
 # ユーザ，ホームパスの決定
 ENV USER VoiceApp
 ENV HOME /home/$USER
