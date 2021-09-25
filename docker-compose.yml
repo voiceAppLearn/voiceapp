@@ -1,7 +1,8 @@
 version: '3.7'
 services:
-    voice-development:
-        image: voice/dev:2.0
+    model-devel:
+        # image: continuumio/miniconda3
+        build: ./model-devel
         tty: true
         volumes:
-            - ./src:$HOME
+            - ./src:/home/VoiceApp/src

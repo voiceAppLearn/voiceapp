@@ -47,4 +47,4 @@ SHELL ["conda", "run", "-n", "voiceappEnv", "/usr/bin/zsh", "-c"]
 RUN conda install numpy matplotlib tqdm scikit-learn scipy pandas pillow jupyter
 RUN conda install pytorch torchvision torchaudio cpuonly -c pytorch
 RUN pip install torchinfo
-
+RUN conda activate voiceappEnv
